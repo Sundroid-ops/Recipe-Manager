@@ -1,0 +1,274 @@
+body , .card{
+    background-color: #f2eeeb;
+}
+
+.navbar-brand , .nav-link{
+    color: #ef233c;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.nav img{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.navbar-brand {
+    font-weight: 500;
+}
+
+.navbar-brand:hover{
+    color: #ef233c;
+}
+
+.navi{
+    background-color: #f4a261;
+}
+
+.web-info h1{
+    font-size: 4rem;
+    margin: 35px 0px 15px;
+}
+
+.info{
+    font-size: 1.5rem;
+}
+
+.web-info span{
+    color: #ef233c;
+}
+
+.web-info{
+    width: 900px;
+    margin-left: 50px;
+}
+
+.on , .starred{
+    margin: 30px 0px 15px 50px;
+}
+
+.on .row-1 , .starred{
+    margin-left: 30px;
+}
+
+.on .top , .starred .top{
+    font-size: 2.5rem;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+.on .row-1 h2{
+    width: 600px;
+    font-size: 3rem;
+    font-weight: 200;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ef233c;
+}
+
+.on .row-1 p{
+    width: 400px;
+    font-size: 1.5rem;
+}
+
+.on .colm{
+    display: flex;
+    justify-content: space-between;
+}
+
+.on .colm .ingred{
+    width : 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 30px;
+}
+
+.ingred h3{
+    width: 300px;
+    font-size: 3.5rem;
+    font-weight: 400;
+    border-bottom: 2px solid black;
+    color: #ef233c;
+    transform: translateX(-25px);
+}
+
+.ingred .count li{
+    width: 400px;
+    font-size: 1.3rem;
+    font-weight: 100;
+    line-height: 1.5;
+    border-bottom: 1px solid black;
+}
+
+.ingred .count{
+    width: 450px;
+    border: 2px solid black;
+}
+
+.row-2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.on .row-2 h3{
+    width: 300px;
+    font-size: 3.5rem;
+    font-weight: 400;
+    border-bottom: 2px solid black;
+    color: #ef233c;
+}
+
+.on .instruct{
+    margin-left: 5%;
+}
+
+.on .row-2 .form-check{
+    font-size: 500;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.starred h2{
+    font-size: 2.5rem;
+    font-weight: 100;
+    margin-left: 50px;
+}
+
+.card-img{
+    margin: 5px 0px;
+}
+
+.starred .card-body .cook-time{
+    width: 30px;
+    height: 30px;
+    margin: 5px 10px 0px 0px;
+}
+
+.starred .card-body .bi-star-fill{
+    margin:5px 10px 0px 15px ;
+    width: 30px;
+    height: 30px;
+}
+
+.card-title , .card-text{
+    width: 230px;
+    height: 50px;
+}
+
+.starred .card-body{
+    padding: 5px;
+}
+
+.starred .card{
+    margin-top: 10px;
+}
+
+.bottom{
+    border-top: 3px solid black;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom .about{
+    margin-top: 30px;
+}
+
+.bottom .logo{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+@media(max-width:1400px){
+    .on .colm{
+        flex-direction: column;
+    }
+    .on .row-2{
+        width: 900px;
+    }
+}
+
+@media(max-width:950px){
+    .web-info{
+        width: 700px;
+    }
+    .on .row-2{
+        width: 700px;
+    }
+    .food-img img{
+        width: 500px;
+    }
+}
+
+@media(max-width:760px){
+    .web-info{
+        width: 500px;
+    }
+    .on .row-2{
+        width: 500px;
+    }
+    .food-img img{
+        width: 400px;
+    }
+    .row-1{
+        width: 400px;
+    }
+    .on .row-1 h2{
+        width: 500px;
+    }
+}
+
+@media(max-width:582px){
+    .web-info{
+        width: 300px;
+    }
+    .web-info h1{
+        font-size: 2.5rem;
+    }
+    .info{
+        font-size: 1rem;
+        width: 320px;
+    }
+    .on .row-2{
+        width: 300px;
+    }
+    .on{
+        margin-left: 10px;
+    }
+    .food-img img{
+        width: 300px;
+    }
+    .row-1{
+        width: 300px;
+    }
+    .on .row-1 h2{
+        width: 300px;
+        font-size: 2.5rem;
+    }
+    .on .row-1 p{
+        font-size: 1.2rem;
+        width: 300px;
+    }
+    .details , .on .colm .ingred{
+        width: 300px;
+    }
+
+    .ingred h3{
+        font-size: 2.5rem;
+    }
+
+    .ingred .count{
+        width: 300px;
+    }
+
+    .ingred .count li{
+        width: 256px;
+        font-size: 1.2rem;
+    }
+
+    .instruct .form-check{
+        font-size: 1.2rem;
+    }
+}

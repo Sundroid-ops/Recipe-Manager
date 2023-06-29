@@ -1,0 +1,168 @@
+body , .card{
+    background-color: #f2eeeb;
+}
+
+.navbar-brand , .nav-link{
+    color: #ef233c;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.nav img{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.navbar-brand {
+    font-weight: 500;
+}
+
+.navbar-brand:hover{
+    color: #ef233c;
+}
+
+.navi{
+    background-color: #f4a261;
+}
+
+.web-info h1{
+    font-size: 4rem;
+    margin: 35px 0px 15px;
+}
+
+.info{
+    font-size: 1.5rem;
+}
+
+.web-info span{
+    color: #ef233c;
+}
+
+.web-info{
+    width: 900px;
+    margin-left: 50px;
+}
+
+.org-1 , .org-2 , .org-3{
+    display: flex;
+    justify-content: start;
+}
+
+.row-1 , .row-2{
+    margin: 30px 50px 15px 90px;
+    border: 2px solid black;
+    padding: 5px;
+    width: 700px;
+}
+
+.row-1 h3 , .row-2 h3{
+    border-bottom: 2px solid black;
+    font-size: 100;
+    font-size: 2rem;
+}
+
+.imp div{
+    border-bottom: 2px solid black;
+    margin: 15px;
+    font-size: 100;
+    font-size: 1.5rem;
+    width: 500px;
+}
+
+input{
+    background-color: #f2eeeb;
+    border: none;
+}
+
+.bottom{
+    border-top: 3px solid black;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom .about{
+    margin-top: 30px;
+}
+
+.bottom .logo{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+@media(max-width : 1345px){
+    .org-1,.org-2,.org-3{
+        flex-direction: column;
+        margin-left: auto;
+    }
+}
+
+@media(max-width : 960px){
+    .web-info{
+        width: 600px;
+    }
+    .row-1 , .row-2{
+        margin: 30px 50px 15px 90px;
+        border: 2px solid black;
+        padding: 5px;
+        width: 600px;
+    }
+}
+
+@media(max-width : 700px){
+    .web-info{
+        width: 500px;
+    }
+    .info{
+        font-size: 1.4rem;
+    }
+    .web-info h1{
+        font-size: 3.5rem;
+        margin: 35px 0px 15px;
+    }
+    .row-1 , .row-2{
+        margin: 30px 50px 15px 69px;
+        border: 2px solid black;
+        padding: 5px;
+        width: 400px;
+    }
+    .imp div{
+        border-bottom: 2px solid black;
+        margin: 10px;
+        font-size: 1.2rem;
+        width: 300px;
+    }
+}
+
+@media(max-width : 560px){
+    .web-info{
+        width: 320px;
+        font-size: 1rem;
+        margin-left: 30px;
+    }
+    .row-1 , .row-2{
+        margin: 30px 50px 15px 35px;
+        width: 320px;
+    }
+    .imp div{
+        border-bottom: 2px solid black;
+        margin: 10px;
+        font-size: 1.2rem;
+        width: 250px;
+    }
+    .bottom{
+        margin-top: 15px;
+    }
+    .bottom .about{
+        margin-top: 15px;
+        width: 300px;
+        font-size: 0.7rem;
+    }
+    .bottom .logo{
+        width: 30px;
+        height: 30px;
+        margin: 5px;
+    }
+}

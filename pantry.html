@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAPACOOK</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="Pantry.css">
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-expand-md bg-body-tertiary sticky-top py-0">
+        <div class="container-fluid navi">
+            <div class="nav">
+                <a class="navbar-brand pt-2" href="Home.html"><img src="img/chef.png" alt=""> PAPACOOK</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#expandme" aria-controls="expandme">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="expandme">
+                    <div class="options">
+                        <div class="navbar-nav">
+                            <a class="nav-link" href="dashboard.html">Dashboard</a>
+                            <a class="nav-link" href="pantry.html">Pantry</a>
+                            <a class="nav-link" href="">Log-in</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="web-info">
+        <h1><span>/</span>Pantry</h1>
+        <div class="info">
+            Effortlessly organize your pantry items, from staple ingredients to your favorite spices and condiments. With just a glance at your app, you'll have a comprehensive view of what's in stock and what needs to be replenished. Say hello to stress-free meal planning and efficient grocery shopping!
+        </div>
+    </div>
+
+    <div class="org-1">
+        <div class="row-1">
+            <div class="part">
+                <h3>Dairy:</h3>
+                <div class="imp">
+                    <div class="milk">milk : <input type="number" id="num" placeholder="0" min="0" max="100"></div>
+                    <div class="cheese">cheese : <input type="number" placeholder="0" id="num" min="0" max="100"></div>
+                    <div class="butter">butter : <input type="number" placeholder="0" id="num" min="0" max="100"></div>
+                    <div class="mayo">mayonese : <input type="number" placeholder="0" id="num" min="0" max="100"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row-2">
+            <div class="part">
+                <h3>Spices and Seasonings:</h3>
+                <div class="imp">
+                    <div class="milk">Salt : <input type="number" placeholder="0" id="num" min="0" max="100"></div>
+                    <div class="cheese">Pepper : <input type="number" placeholder="0" id="num" min="0" max="100"></div>
+                    <div class="butter">Garlic powder
+                        <input type="number" placeholder="0" id="num" min="0" max="100"></div>
+                    <div class="mayo">Onion powder
+                        : <input type="number" placeholder="0" id="num" min="0" max="100"></div>
+                        <div class="cheese">Paprika : <input type="number" placeholder="0" id="num" min="0" max="100"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="org-2">
+        <div class="row-1">
+            <div class="part">
+                <h3>Non-Veg:</h3>
+                <div class="imp">
+                    <div class="milk">Chicken : <input type="number" id="num" placeholder="0" min="0" max="100"></div>
+                    <div class="cheese">Fish : <input type="number" placeholder="0" id="num" min="0" max="100"></div>
+                    <div class="butter">Mutton : <input type="number" placeholder="0" id="num" min="0" max="100"></div>
+                    <div class="mayo">Egg : <input type="number" placeholder="0" id="num" min="0" max="100"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row-2">
+            <div class="part">
+                <h3>Grains and Cereals:</h3>
+                <div class="imp">
+                    <div class="milk">Oats : <input type="number" placeholder="0" id="num" min="0" max="100"></div>
+                    <div class="cheese">Pasta : <input type="number" placeholder="0" id="num" min="0" max="100"></div>
+                    <div class="butter">Rice : <input type="number" placeholder="0" id="num" min="0" max="100"></div>
+                    <div class="mayo">Dal : <input type="number" placeholder="0" id="num" min="0" max="100"></div>
+                    <div class="mayo">Maize : <input type="number" placeholder="0" id="num" min="0" max="100"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="org-3">
+        <div class="row-1">
+            <div class="part">
+                <h3>Baking Supplies:</h3>
+                <div class="imp">
+                    <div class="milk">Cocoa powder
+                        : <input type="number" id="num" placeholder="0" min="0" max="100"></div>
+                    <div class="cheese">Baking soda
+                        : <input type="number" placeholder="0" id="num" min="0" max="100"></div>
+                    <div class="butter">Baking powder
+                        : <input type="number" placeholder="0" id="num" min="0" max="100"></div>
+                    <div class="mayo">Sugar : <input type="number" placeholder="0" id="num" min="0" max="100"></div>
+                    <div class="cheese">flour : <input type="number" placeholder="0" id="num" min="0" max="100"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row-2">
+            <div class="part">
+                <h3>Beverages:</h3>
+                <div class="imp">
+                    <div class="milk">Soda
+                        : <input type="number" placeholder="0" id="num" min="0" max="100"></div>
+                    <div class="cheese">Juice : <input type="number" placeholder="0" id="num" min="0" max="100"></div>
+                    <div class="butter">Tea : <input type="number" placeholder="0" id="num" min="0" max="100"></div>
+                    <div class="mayo">Coffee : <input type="number" placeholder="0" id="num" min="0" max="100"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <div class="about">
+          <p><img class="logo" src="img/chef.png" loading="lazy" alt="">Copyright © 2023 PAPACOOK | All rights reserved.</p>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+</body>
+</html>
